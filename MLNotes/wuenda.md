@@ -1,4 +1,4 @@
-<img width="2715" height="1108" alt="image" src="https://github.com/user-attachments/assets/b00608bb-c976-4cd6-87ce-8c7b1a3e8c35" /># Content
+# Content
 - [Introduction](#introduction)
   - [📌 supervised learning](#-supervised-learning)
   - [📌 unsupervised learning](#-unsupervised-learning)
