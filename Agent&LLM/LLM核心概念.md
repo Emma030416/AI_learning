@@ -73,7 +73,7 @@ prompt 可以分为两类：
 
 **给大模型提供它可以调用的外部能力，让大模型能感知和影响外部环境**
 
-![image-20260323012043499](C:\Users\Emma\AppData\Roaming\Typora\typora-user-images\image-20260323012043499.png)
+![1.png](img/1.png)
 
 
 
@@ -91,7 +91,7 @@ prompt 可以分为两类：
 
 **Agent 能自主规划和调用工具，直至解决用户问题的程序**
 
-![image-20260323013237563](C:\Users\Emma\AppData\Roaming\Typora\typora-user-images\image-20260323013237563.png)
+![2.png](img/2.png)
 
 流行的 Agent 有 Claude Code，Codex，Gemini CLI等，构建模型有 React，Plan And Execute
 
@@ -103,4 +103,4 @@ prompt 可以分为两类：
 
 元数据层（name + description）+ 指令层
 
-![image-20260323021425708](C:\Users\Emma\AppData\Roaming\Typora\typora-user-images\image-20260323021425708.png)
+![3.png](img/3.png)
