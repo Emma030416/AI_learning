@@ -1,0 +1,3 @@
+notes for Agent and LLM learning
+
+including basic knowledge, research paper...
