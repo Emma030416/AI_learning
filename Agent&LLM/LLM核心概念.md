@@ -1,10 +1,10 @@
-### **LLM**
+## **LLM**
 
 大语言模型，简称大模型
 
 基于 Transformer 架构（Google），后续会讲到
 
-GPT 系列 大模型浪潮的鼻祖
+eg. Kimi, doubao, 文心, 千问, Gemini, Claude, ChatGPT...
 
 **大模型工作原理：**
 
@@ -73,6 +73,8 @@ prompt 可以分为两类：
 
 **给大模型提供它可以调用的外部能力，让大模型能感知和影响外部环境**
 
+平台接收到问题后，会连同接入的工具一起给大模型，大模型告诉平台应该调用哪个工具
+
 ![1.png](img/1.png)
 
 
@@ -91,10 +93,9 @@ prompt 可以分为两类：
 
 **Agent 能自主规划和调用工具，直至解决用户问题的程序**
 
-![2.png](img/2.png)
-
 流行的 Agent 有 Claude Code，Codex，Gemini CLI等，构建模型有 React，Plan And Execute
 
+后面会详细学习
 
 
 ### Agent Skills
@@ -103,4 +104,13 @@ prompt 可以分为两类：
 
 元数据层（name + description）+ 指令层
 
-![3.png](img/3.png)
+```shell
+agent-skill-test
+> cd ~/.claude/skills
+skills
+> mkdir go-out-checklist
+skills
+> cd go-out-checklist
+go-out-checklist
+> vim SKILL.md
+```
