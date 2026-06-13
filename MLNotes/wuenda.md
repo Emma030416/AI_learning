@@ -362,25 +362,6 @@ the right way to choose the best model:
 ![描述](./img/wuenda71.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```python
 from sklearn.metrics import...
 ```
