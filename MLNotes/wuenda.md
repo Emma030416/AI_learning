@@ -33,7 +33,7 @@ supervised learning <-> unsupervised learning
 ![描述](./img/wuenda01.png)
 
 ## 📌 supervised learning
-input-> output label<br>
+input-> output label 输入数据有标签<br>
 learn from being given "right answers"
 
 applications using supervised learning:
@@ -51,21 +51,24 @@ examples:<br>
 1. housing price prediction:<br>
 whether to fit a straight line, a curve or another function to the data
 ![描述](./img/wuenda02.png)
-✅ **regression**: predict numbers / continuous valued output
+✅ **regression**: predict numbers / continuous valued output 回归输出连续数值
 
 2. breast cancer detection:<br>
 ![描述](./img/wuenda03.png)
-✅ **classification**: predict categories / discrete valued output
+✅ **classification**: predict categories / discrete valued output 分类输出离散类别
 
-the examples above only provide one input or feature, in fact, more than one feature also works<br>
+the examples above only provide one input or feature, in fact, more than one feature also works<br> 回归和分类都是监督学习。监督学习也可以处理多种特征
 ![描述](./img/wuenda04.png)
-find a boundary line<br>
-✅ we use **SVM(Support Vector Machine)** when we have infinite numbers of features
+find a boundary line 需要寻找决策边界<br>
+可以转化为：求解两类数据的最大间隔，间隔越大差异越大越准确，间隔正中即为决策边界
+
+上图共5种特征（坐标轴2个和右边的3个），甚至可以处理无数种特征<br>
+✅ we use **SVM(Support Vector Machine)** when we have infinite numbers of features 用支持数量机处理无限个特征，后面会学
 
 ## 📌 unsupervised learning
-find the structure or pattern by itself in unlabeled data
+find the structure or pattern by itself in unlabeled data 输入数据无标签，让算法从数据中找出某种结构
 
-✅ **clustering**: group data into different clusters
+✅ **clustering**: group data into different clusters（簇）
 
 examples:<br>
 1. google news:<br>
@@ -85,10 +88,11 @@ x: input(feature)<br>
 y: output(target/label)<br>
 (x, y): one training example<br>
 (x⁽ⁱ⁾, y⁽ⁱ⁾): the ith training example<br>
-h: function of the model(f(x))
+h: function of the model(f(x)) 假设函数
 
 so the model is like below:
 ![描述](./img/wuenda05.png)
+训练集 + 学习算法 -> 得到假设函数h
 
 ## 📌 cost function
 after setting up our model, we need to choose the reasonable parameters: θo and θ1
@@ -105,6 +109,7 @@ m is for averaging, making the function independent of the sample size;<br>
 
 to better visualize the function, let's simplify it first:
 ![描述](./img/wuenda07.png)
+要找到使J最小的θ
 ![描述](./img/wuenda08.png)
 
 if we have two parameters, the picture would look like this :
