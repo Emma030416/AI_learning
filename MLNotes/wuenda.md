@@ -120,7 +120,7 @@ in three-dimensional space, we can still find the lowest point
 to automatically find the parameters that minimize the cost function J, we introduce gradient decent
 
 ## 📌 gradient decent
-✅ **gradient decent**(梯度下降) is used to minimize some arbitrary funciton
+✅ **gradient decent**(梯度下降) is used to minimize some arbitrary function 用来最小化
 
 imagine you are on a hill, to go down the hill as quickly as possible, you need to look around and find the best direction then take a step.<br>
 Then you keep going, from this new point you are now standing at, look around and find the best direction then take another step...
@@ -132,6 +132,7 @@ here is the visualized picture:
 
 here is the algorithm:
 ![描述](./img/wuenda12.png)
+通过不断变化θ，找到J的最小值。其中:=是赋值
 
 something you need to know in the algorithm:<br>
 1. derivative term(导数项)
